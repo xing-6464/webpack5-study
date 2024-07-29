@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- HtmlWebpackPlugin插件的替换格式 -->
+    <!-- <title><%= titleName %></title>  -->
+    <!-- HtmlWebpackPlugin插件title直接替换 -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <div>
